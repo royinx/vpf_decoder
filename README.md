@@ -1,6 +1,7 @@
 
-## Quick Start
-### Environment setting
+# VPF decoder
+Use VPF to decode video on NVIDIA GPU, and return cupy array / GPU pointer directly
+### Quick Start
 ---
 ```bash
 docker build -t vpf_trt -f trt.dockerfile .
